@@ -7,9 +7,31 @@ A small Tkinter interface that imitates the *appearance* of a security incident 
 ## Requirements
 
 - Python 3.10 or newer
-- Tkinter (usually provided by the Debian package `python3-tk`)
+- Tkinter (included with the standard Windows installer from python.org; on Debian, install it with `python3-tk`)
 
 No third-party Python packages are required.
+
+## Run on Windows
+
+1. Install Python 3.10 or newer from [python.org](https://www.python.org/downloads/).
+2. During installation, enable **Add Python to PATH**. Keep the standard **Tcl/Tk and IDLE** feature selected.
+3. Download this repository and extract the ZIP, or clone it with Git.
+4. Open the extracted project folder.
+5. Double-click `run_windows.bat`.
+
+You can also run it manually from PowerShell or Command Prompt:
+
+```powershell
+py -3 --version
+py -3 ransomware_sim.py
+```
+
+If the `py` command is unavailable, try:
+
+```powershell
+python --version
+python ransomware_sim.py
+```
 
 ## Run on Debian
 
