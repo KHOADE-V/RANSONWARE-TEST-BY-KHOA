@@ -1,0 +1,1 @@
+# No third-party dependencies. Install Tkinter with: sudo apt install python3-tk
